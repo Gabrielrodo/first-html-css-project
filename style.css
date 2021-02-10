@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html{
+ font-size: 15px;
+ font-family: 'Montserrat', sans-serif;   
+}
+
+a{
+    text-decoration: none;
+}
+
+#home .container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+/*Home section*/
+#home{
+    background-image: url(./Pics/512679.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+#home .home{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    justify-content: flex-start;
+}
+
+#home h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+}
+
+#home .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color:paleturquoise;
+    background-color: transparent;
+    border: 2px solid paleturquoise; 
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    transition: .3s ease background-color;
+    transition-property: background-color, color;
+}
+#home .cta:hover{
+    color: black;
+    background-color: paleturquoise;
+}
+/*Home section*/
+
+/*Catalago section*/
+#catalogo .catalogo{
+    flex-direction: column;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#catalogo .titulo{
+    font-size: 4rem;
+    font-weight: 300;
+    color:black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.rem;
+    text-align: center;
+}
+
+#catalogo .top p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300px;
+    letter-spacing: .05rem;
+
+}
+
+#catalogo .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: inline-block;
+    height: 200px;
+    margin-top: 25px;
+    padding: 30px auto;
+    text-align: center;
+    width: 200px;
+    }
+    
+    .price {
+    color: grey;
+    font-size: 22px;
+    }
+    
+    .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    }
+    
+    .card button:hover {
+    opacity: 0.7;
+    }
+/*Catalago section*/
+/*Pagos*/
+
+.payments {
+    text-align: center;
+    margin-top: 30px;
+    border: 2px ;
+    display: inline-block;
+    height: 100px;
+    margin-top: 4px;
+    padding: 20px auto;
+    text-align: center;
+    width: 200px;
+  }
+
+/*Pagos*/
+/*faq*/
+
+#faq{
+    border:thin black;
+    border-style: solid;
+}
+
+#faq .faq{
+    flex-direction: column;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+#faq .titulo{
+    font-size: 4rem;
+    font-weight: 300;
+    color:black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.rem;
+    text-align: center;
+}
+
+#faq .top p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300px;
+    letter-spacing: .05rem;
+
+}
+
+#faq .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/*faq*/
+/*Contacto*/
+#contacto .contacto{
+    flex-direction: column;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+#contacto .titulo{
+    font-size: 4rem;
+    font-weight: 300;
+    color:black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.rem;
+    text-align:end;
+
+}
+
+#contacto .top p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300px;
+    letter-spacing: .05rem;
+
+}
+
+#contacto .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+/*Contacto*/
